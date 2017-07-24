@@ -1,0 +1,23 @@
+Script started on Mon 24 Apr 2017 06:08:03 PM EDT
+]0;gassiscardoso@studentcomputing:~[?1034h[gassiscardoso@studentcomputing ~]$ exitstopvar LAB8_PATH = /tmp/gassiscardoso_lab8[C[C[C$/tmp/gassiscardoso_lab8P/tmp/gassiscardoso_lab8A/tmp/gassiscardoso_lab8T/tmp/gassiscardoso_lab8H/tmp/gassiscardoso_lab8 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+bash: var: command not found
+]0;gassiscardoso@studentcomputing:~[gassiscardoso@studentcomputing ~]$ var LAB8_PATH = $PATH/tmp/gassiscardoso_lab8 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvar LAB8_PATH = $PATH/tmp/gassiscardoso_lab8 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvar LAB8_PATH = $PATH/tmp/gassiscardoso_lab8 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:/tmp/gassiscardoso_lab88[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+bash: var: command not found
+]0;gassiscardoso@studentcomputing:~[gassiscardoso@studentcomputing ~]$ var LAB8_PATH = $PATH:/tmp/gassiscardoso_lab88[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvar LAB8_PATH = $PATH:/tmp/gassiscardoso_lab88[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Car LAB8_PATH = $PATH:/tmp/gassiscardoso_lab8 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P
+bash: LAB8_PATH: command not found
+]0;gassiscardoso@studentcomputing:~[gassiscardoso@studentcomputing ~]$ LAB8_PATH = $PATH:/tmp/gassiscardoso_lab8[1PPATH:/tmp/gassiscardoso_lab8[1PATH:/tmp/gassiscardoso_lab8[1PTH:/tmp/gassiscardoso_lab8[1PH:/tmp/gassiscardoso_lab8[1P:/tmp/gassiscardoso_lab8[1P/tmp/gassiscardoso_lab8
+bash: LAB8_PATH: command not found
+]0;gassiscardoso@studentcomputing:~[gassiscardoso@studentcomputing ~]$ LAB8_PATH = /tmp/gassiscardoso_lab8$PATH:/tmp/gassiscardoso_lab8[1P/tmp/gassiscardoso_lab8
+bash: LAB8_PATH: command not found
+]0;gassiscardoso@studentcomputing:~[gassiscardoso@studentcomputing ~]$ LAB8_PATH = $PATH/tmp/gassiscardoso_lab8:/tmp/gassiscardoso_lab8
+bash: LAB8_PATH: command not found
+]0;gassiscardoso@studentcomputing:~[gassiscardoso@studentcomputing ~]$ s[Kexit
+exit
+
+Script done on Mon 24 Apr 2017 06:27:46 PM EDT

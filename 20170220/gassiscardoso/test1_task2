@@ -1,0 +1,71 @@
+Script started on Mon 20 Feb 2017 07:24:36 PM EST
+]0;gassiscardoso@studentcomputing:~/comp145/test1[?1034h[gassiscardoso@studentcomputing test1]$ mkdir task2
+]0;gassiscardoso@studentcomputing:~/comp145/test1[gassiscardoso@studentcomputing test1]$ cd task2
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ touch file1 fil2 file3[C[1@e[C[C[C[C[C[C[C
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ chmod 770[K7[K0
+chmod: missing operand after ‘770’
+Try 'chmod --help' for more information.
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ chmod 770 file1
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ ls -l file1
+-rwxrwx---. 1 gassiscardoso sp17-comp140 0 Feb 20 19:25 [0m[01;32mfile1[0m
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ chmod 644 file2
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ ls -l file2
+-rw-r--r--. 1 gassiscardoso sp17-comp140 0 Feb 20 19:25 file2
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ echo date > [K[K[K>mydate
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ ls
+[0m[01;32mfile1[0m  file2  file3  mydate
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ mydate
+bash: mydate: command not found
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ echo mydate
+mydate
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ nano[K[K[K[Kcat mydate
+date
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ chmod ls [K[K[K[K[K[K[K[K[Kls -l mydate
+-rw-r--r--. 1 gassiscardoso sp17-comp140 5 Feb 20 19:27 mydate
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ chmod 744 mydate
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ chmod 744 mydate[4Pls -l[C[C[C[C[C[C[C
+-rwxr--r--. 1 gassiscardoso sp17-comp140 5 Feb 20 19:27 [0m[01;32mmydate[0m
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ . ./mydatecmydateomydate[Cmydatepmydate[1Pmydate[1Pydate[1Pmydate[1Pmydate[C[C[C[C[C[C
+Mon Feb 20 19:33:46 EST 2017
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ mv file3 myfile
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ ls
+[0m[01;32mfile1[0m  file2  [01;32mmydate[0m  myfile
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ mkdir temp
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ cp mydate ./temp/
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ ls
+[0m[01;32mfile1[0m  file2  [01;32mmydate[0m  myfile  [01;34mtemp[0m
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2[gassiscardoso@studentcomputing task2]$ cd temp
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2/temp[gassiscardoso@studentcomputing temp]$ ls
+[0m[01;32mmydate[0m
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2/temp[gassiscardoso@studentcomputing temp]$ ln m[K/[K./mydate newdate
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2/temp[gassiscardoso@studentcomputing temp]$ ls
+[0m[01;32mmydate[0m  [01;32mnewdate[0m
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2/temp[gassiscardoso@studentcomputing temp]$ lsn ./mydate newdate1
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2/temp[gassiscardoso@studentcomputing temp]$ rm newdate
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task2/temp[gassiscardoso@studentcomputing temp]$ cd $HOMW[KE
+]0;gassiscardoso@studentcomputing:~[gassiscardoso@studentcomputing ~]$ pwd
+/home/gassiscardoso
+]0;gassiscardoso@studentcomputing:~[gassiscardoso@studentcomputing ~]$ ls -laRt task2
+ls: cannot access task2: No such file or directory
+]0;gassiscardoso@studentcomputing:~[gassiscardoso@studentcomputing ~]$ cd comp145/test1/
+]0;gassiscardoso@studentcomputing:~/comp145/test1[gassiscardoso@studentcomputing test1]$ cd comp145/test1/[3Pls -laRt task2
+task2:
+total 4
+drwxr-xr-x. 2 gassiscardoso sp17-comp140 34 Feb 20 19:36 [0m[01;34mtemp[0m
+drwxr-xr-x. 3 gassiscardoso sp17-comp140 67 Feb 20 19:34 [01;34m.[0m
+-rwxr--r--. 1 gassiscardoso sp17-comp140  5 Feb 20 19:27 [01;32mmydate[0m
+-rwxrwx---. 1 gassiscardoso sp17-comp140  0 Feb 20 19:25 [01;32mfile1[0m
+-rw-r--r--. 1 gassiscardoso sp17-comp140  0 Feb 20 19:25 file2
+-rw-r--r--. 1 gassiscardoso sp17-comp140  0 Feb 20 19:25 myfile
+drwxr-xr-x. 4 gassiscardoso sp17-comp140 66 Feb 20 19:24 [01;34m..[0m
+
+task2/temp:
+total 8
+drwxr-xr-x. 2 gassiscardoso sp17-comp140 34 Feb 20 19:36 [01;34m.[0m
+-rwxr--r--. 2 gassiscardoso sp17-comp140  5 Feb 20 19:34 [01;32mmydate[0m
+-rwxr--r--. 2 gassiscardoso sp17-comp140  5 Feb 20 19:34 [01;32mnewdate1[0m
+drwxr-xr-x. 3 gassiscardoso sp17-comp140 67 Feb 20 19:34 [01;34m..[0m
+]0;gassiscardoso@studentcomputing:~/comp145/test1[gassiscardoso@studentcomputing test1]$ exit
+
+Script done on Mon 20 Feb 2017 07:37:25 PM EST
+Gustavo Cardoso - Task#2

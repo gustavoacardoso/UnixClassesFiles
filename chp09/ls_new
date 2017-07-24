@@ -1,0 +1,17 @@
+total 64
+-rw-r--r-- 1 rnoel stud  150 Nov  3 17:41 addressbook
+-rw-r--r-- 1 rnoel stud  153 Nov  3 17:41 dept.lst
+-rw-r--r-- 1 rnoel stud  142 Nov  3 17:41 group1
+-rw-r--r-- 1 rnoel stud  142 Nov 10 18:49 group1.sort
+-rw-r--r-- 1 rnoel stud  142 Nov 10 15:33 group1.sorted
+-rw-r--r-- 1 rnoel stud  157 Nov  3 17:41 group2
+-rw-r--r-- 1 rnoel stud  157 Nov 10 18:49 group2.sort
+-rw-r--r-- 1 rnoel stud  157 Nov 10 15:33 group2.sorted
+-rw-r--r-- 1 rnoel stud    0 Nov 10 20:04 ls_new
+-rw-r--r-- 1 rnoel stud  790 Nov 10 19:53 ls.out
+-rw-r--r-- 1 rnoel stud 7122 Nov 10 15:36 passwd
+-rw-r--r-- 1 rnoel stud  381 Nov  3 17:41 passwd1
+-rw-r--r-- 1 rnoel stud   48 Nov 10 19:42 passwd1.out
+-rw-r--r-- 1 rnoel stud  463 Nov  3 17:41 passwd2
+-rw-r--r-- 1 rnoel stud   60 Nov 10 19:45 passwd2.out
+-rw-r--r-- 1 rnoel stud  295 Nov  3 17:41 shortlist

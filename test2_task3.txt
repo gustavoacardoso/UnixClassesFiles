@@ -1,0 +1,171 @@
+Script started on Mon 10 Apr 2017 07:28:55 PM EDT
+]0;gassiscardoso@studentcomputing:~[?1034h[gassiscardoso@studentcomputing ~]$ mkdir -p 20170410/task3
+]0;gassiscardoso@studentcomputing:~[gassiscardoso@studentcomputing ~]$ cd 20170410/task3
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ touch .file1 2file2 3f 44b 595a hy423
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ls *[0=-[K[K-0[K9]
+2file2  hy423
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ rm <.8[K*>
+bash: syntax error near unexpected token `newline'
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ rm <.*>[1P.*>[C[C[K
+rm: cannot remove ‘.’: Is a directory
+rm: cannot remove ‘..’: Is a directory
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ rm -rf .*
+rm: refusing to remove ‘.’ or ‘..’ directory: skipping ‘.’
+rm: refusing to remove ‘.’ or ‘..’ directory: skipping ‘..’
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ rm [K[K[Kls
+2file2  3f  44b  595a  hy423
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ls -a
+[0m[01;34m.[0m  [01;34m..[0m  2file2  3f  44b  595a  hy423
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ls- [K[K -la
+total 0
+drwxr-xr-x. 2 gassiscardoso sp17-comp140 61 Apr 10 19:40 [0m[01;34m.[0m
+drwxr-xr-x. 4 gassiscardoso sp17-comp140 30 Apr 10 19:29 [01;34m..[0m
+-rw-r--r--. 1 gassiscardoso sp17-comp140  0 Apr 10 19:30 2file2
+-rw-r--r--. 1 gassiscardoso sp17-comp140  0 Apr 10 19:30 3f
+-rw-r--r--. 1 gassiscardoso sp17-comp140  0 Apr 10 19:30 44b
+-rw-r--r--. 1 gassiscardoso sp17-comp140  0 Apr 10 19:30 595a
+-rw-r--r--. 1 gassiscardoso sp17-comp140  0 Apr 10 19:30 hy423
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ls *4*
+44b  hy423
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ rm **[K[K[K[K[Kfind . -name '??' -exec rm -rf {} \;
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ls
+2file2  44b  595a  hy423
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ lsfind . -name '??' -exec rm -rf {} \;ls *4*[Kfind . -name '??' -exec rm -rf {} \;[1@.[1@*[C[1P[1P[C
+rm: refusing to remove ‘.’ or ‘..’ directory: skipping ‘.’
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ find . -name '.*' -exec rm -rf {} \;[1@*[1@.[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+rm: refusing to remove ‘.’ or ‘..’ directory: skipping ‘.’
+find: ‘*.’: No such file or directory
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ find . *. -exec rm -rf {} \;[C[1@|[1@ 
+bash: -exec: command not found
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ find . -name ".*" -exec rm -rf {};
+find: missing argument to `-exec'
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ find . -name ".*" -exec rm -rf {};[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ;\;
+rm: refusing to remove ‘.’ or ‘..’ directory: skipping ‘.’
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ find . -name ".*" -exec rm -rf {} \;[1P\;[1P;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C{};}{};[1P};[1P;
+find: missing argument to `-exec'
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ rm -rf .*
+rm: refusing to remove ‘.’ or ‘..’ directory: skipping ‘.’
+rm: refusing to remove ‘.’ or ‘..’ directory: skipping ‘..’
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ls -l
+total 0
+-rw-r--r--. 1 gassiscardoso sp17-comp140 0 Apr 10 19:53 2file2
+-rw-r--r--. 1 gassiscardoso sp17-comp140 0 Apr 10 19:53 44b
+-rw-r--r--. 1 gassiscardoso sp17-comp140 0 Apr 10 19:53 595a
+-rw-r--r--. 1 gassiscardoso sp17-comp140 0 Apr 10 19:53 hy423
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ bash
+]0;gassiscardoso@studentcomputing:~/20170410/task3[?1034h[gassiscardoso@studentcomputing task3]$ bash
+]0;gassiscardoso@studentcomputing:~/20170410/task3[?1034h[gassiscardoso@studentcomputing task3]$ bash
+]0;gassiscardoso@studentcomputing:~/20170410/task3[?1034h[gassiscardoso@studentcomputing task3]$ vi &
+[1] 28063
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ sleep 6000 &
+[2] 28074
+]0;gassiscardoso@studentcomputing:~/20170410/task3
+[1]+  Stopped                 vim
+[gassiscardoso@studentcomputing task3]$ sleep 8000 &
+[3] 28121
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ps -IF > ps_output
+error: unsupported SysV option
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ps -IF > ps_output[Kps -IF > ps_output[C[1P[1@l
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ cat ps [K_output
+F S UID        PID  PPID  C PRI  NI ADDR SZ WCHAN    RSS PSR STIME TTY          TIME CMD
+0 S gassisc+ 24576 24575  0  80   0 - 29038 wait    2928   2 19:28 pts/6    00:00:00 bash -i
+0 S gassisc+ 27957 24576  0  80   0 - 29008 wait    2612   1 19:57 pts/6    00:00:00 bash
+0 S gassisc+ 27996 27957  0  80   0 - 29008 wait    2600   1 19:57 pts/6    00:00:00 bash
+0 S gassisc+ 28027 27996  0  80   0 - 29008 wait    2736   2 19:57 pts/6    00:00:00 bash
+0 T gassisc+ 28063 28027  0  80   0 - 37200 signal  4508   3 19:57 pts/6    00:00:00 vim
+0 S gassisc+ 28074 28027  0  80   0 - 26974 hrtime   608   3 19:57 pts/6    00:00:00 sleep 6000
+0 S gassisc+ 28121 28027  0  80   0 - 26974 hrtime   604   0 19:57 pts/6    00:00:00 sleep 8000
+0 R gassisc+ 28172 28027  0  80   0 - 37764 -       1836   0 19:58 pts/6    00:00:00 ps -lF
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ [K[gassiscardoso@studentcomputing task3]$ [K[gassiscardoso@studentcomputing task3]$ ps
+  PID TTY          TIME CMD
+24576 pts/6    00:00:00 bash
+27957 pts/6    00:00:00 bash
+27996 pts/6    00:00:00 bash
+28027 pts/6    00:00:00 bash
+28063 pts/6    00:00:00 vim
+28074 pts/6    00:00:00 sleep
+28121 pts/6    00:00:00 sleep
+28625 pts/6    00:00:00 ps
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ jobs
+[1]+  Stopped                 vim
+[2]   Running                 sleep 6000 &
+[3]-  Running                 sleep 8000 &
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ echo echo&& >> [K[K pids.txt
+echo
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ echo [K[K[K[K[Kecho echo&& > pids.txt[1P[1P[1P[1P[1P
+
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ echo&& > pids.txt[C[1@ 
+
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ps axu >> pids.txt
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ kill -9 28063
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ps
+  PID TTY          TIME CMD
+24576 pts/6    00:00:00 bash
+27957 pts/6    00:00:00 bash
+27996 pts/6    00:00:00 bash
+28027 pts/6    00:00:00 bash
+28074 pts/6    00:00:00 sleep
+28121 pts/6    00:00:00 sleep
+29057 pts/6    00:00:00 ps
+[1]+  Killed                  vim
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ exit
+exit
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ exit
+exit
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1059 24576 24575  0  80   0 - 29038 wait   pts/6    00:00:00 bash
+0 S  1059 27957 24576  0  80   0 - 29008 wait   pts/6    00:00:00 bash
+0 S  1059 28074     1  0  80   0 - 26974 hrtime pts/6    00:00:00 sleep
+0 S  1059 28121     1  0  80   0 - 26974 hrtime pts/6    00:00:00 sleep
+0 R  1059 29075 27957  0  80   0 - 37233 -      pts/6    00:00:00 ps
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ps -l[1Pbashcd $HOME[4Pbashps -l[Kps -l[1Pbashcd $HOMEat *;cat*.;ls -lap .bash_profile $HOME/20170410/task2[19Pat *;cat*.;ls -la[10Pd $HOME[4Pbashps -l[Kecho ps[K[Kps [K[K[K[K[K[K[K[Kecho ps 28074 >> orphaned.ttx
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ echo ps 28074 >> orphaned.ttxxtx[1Px[Kt
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ echo ps 28074 >> orphaned.txt[1@2[1@8[1@1[1@2[1@1[1@ 
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ echo ps 28074 28121 >> orphaned.txt[Kkill 28074 28121
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ps
+  PID TTY          TIME CMD
+24576 pts/6    00:00:00 bash
+27957 pts/6    00:00:00 bash
+29285 pts/6    00:00:00 ps
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ls -ld $VAR1`[K
+drwxr-xr-x. 2 gassiscardoso sp17-comp140 4096 Apr 10 20:11 [0m[01;34m.[0m
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ls -l  $VAR1
+total 32
+-rw-r--r--. 1 gassiscardoso sp17-comp140     0 Apr 10 19:53 2file2
+-rw-r--r--. 1 gassiscardoso sp17-comp140     0 Apr 10 19:53 44b
+-rw-r--r--. 1 gassiscardoso sp17-comp140     0 Apr 10 19:53 595a
+-rw-r--r--. 1 gassiscardoso sp17-comp140     0 Apr 10 19:53 hy423
+-rw-r--r--. 1 gassiscardoso sp17-comp140     9 Apr 10 20:11 orphaned.ttx
+-rw-r--r--. 1 gassiscardoso sp17-comp140    15 Apr 10 20:12 orphaned.txt
+-rw-r--r--. 1 gassiscardoso sp17-comp140 20149 Apr 10 20:08 pids.txt
+-rw-r--r--. 1 gassiscardoso sp17-comp140   825 Apr 10 19:58 ps_output
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ cd $VAR1
+]0;gassiscardoso@studentcomputing:~[gassiscardoso@studentcomputing ~]$ cd $VAR2[K1;pwd
+/home/gassiscardoso
+]0;gassiscardoso@studentcomputing:~[gassiscardoso@studentcomputing ~]$ echo $VAR2
+
+]0;gassiscardoso@studentcomputing:~[gassiscardoso@studentcomputing ~]$ exit
+exit
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ls -ld $VAR2
+drwxr-xr-x. 2 gassiscardoso sp17-comp140 4096 Apr 10 20:11 [0m[01;34m.[0m
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ pwd
+/home/gassiscardoso/20170410/task3
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ls -laRt task3[K2[K2
+ls: cannot access task2: No such file or directory
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ls -laRt task2[K3
+ls: cannot access task3: No such file or directory
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ ls -laRt task3[K2
+ls: cannot access task2: No such file or directory
+]0;gassiscardoso@studentcomputing:~/20170410/task3[gassiscardoso@studentcomputing task3]$ exit
+
+Script done on Mon 10 Apr 2017 08:15:02 PM EDT

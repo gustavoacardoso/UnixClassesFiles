@@ -1,0 +1,1 @@
+15 10 * * 2,4 cat /etc/profile >> $HOME/show_sys_profile.txt

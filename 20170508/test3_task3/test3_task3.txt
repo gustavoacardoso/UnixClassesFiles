@@ -1,0 +1,154 @@
+Script started on Mon 08 May 2017 09:33:24 PM EDT
+]0;gassiscardoso@studentcomputing:~/20170508/test3_task3[?1034h[gassiscardoso@studentcomputing test3_task3]$ ./loop_d_loop.bash
+bash: ./loop_d_loop.bash: /bin/ksh: bad interpreter: No such file or directory
+]0;gassiscardoso@studentcomputing:~/20170508/test3_task3[gassiscardoso@studentcomputing test3_task3]$ ./loop_d_loop.bash[1Pash[1Psh[1Phkhsh
+bash: ./loop_d_loop.ksh: No such file or directory
+]0;gassiscardoso@studentcomputing:~/20170508/test3_task3[gassiscardoso@studentcomputing test3_task3]$ ls
+[0m[01;32mhw8_task2.bash[0m  [01;32mloop_d_loop.bash[0m  test3_task3.txt  [01;32mthefinaldadaduun.bash[0m
+]0;gassiscardoso@studentcomputing:~/20170508/test3_task3[gassiscardoso@studentcomputing test3_task3]$ ./loop_d_loop.bash 
+bash: ./loop_d_loop.bash: /bin/ksh: bad interpreter: No such file or directory
+]0;gassiscardoso@studentcomputing:~/20170508/test3_task3[gassiscardoso@studentcomputing test3_task3]$ ./loop_d_loop.bash [Kcp [16@./loop_d_loop.bash[Ccp [Kloop_d_loop.bash loop_d_loop.hs h[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kks h
+]0;gassiscardoso@studentcomputing:~/20170508/test3_task3[gassiscardoso@studentcomputing test3_task3]$ cp loop_d_loop.bash loop_d_loop.kshh[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15P./loop_d_loop.bash 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K./loop_d_loop.bash [1@k[1@s[1@h[1P[1P[1P[1P 
+bash: ./loop_d_loop.ksh: /bin/ksh: bad interpreter: No such file or directory
+]0;gassiscardoso@studentcomputing:~/20170508/test3_task3[gassiscardoso@studentcomputing test3_task3]$ ./loop_d_loop.ksh cp loop_d_loop.bash loop_d_loop.kshh[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15P./loop_d_loop.bash 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K./loop_d_loop.kshbash[3Ptransnum.bashvi transnum.bash[1P./transnum.bashvi transnum.bash[1P./transnum.bashvi transnum.bash[1P./transnum.bashloop_d_loop.bash[1Pkshbash[1Pkshls[K./loop_d_loop.bash cp loop_d_loop.bash loop_d_loop.kshh[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16P./loop_d_loop.ksh 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp loop_d_loop.bash loop_d_loop.kshh[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15P./loop_d_loop.bash 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K./loop_d_loop.kshbash[3Ptransnum.bashvi transnum.bash[1P./transnum.bashvi transnum.bash[1P./transnum.bashloop_d_loop.bash
+bash: ./loop_d_loop.bash: /bin/ksh: bad interpreter: No such file or directory
+]0;gassiscardoso@studentcomputing:~/20170508/test3_task3[gassiscardoso@studentcomputing test3_task3]$ ./loop_d_loop.bash[K[K[K[K[K[K[K[K[K[K[Kd_loop.ksh cp loop_d_loop.bash loop_d_loop.kshh[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15P./loop_d_loop.bash 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K./loop_d_loop.kshbash[3Ptransnum.bashvi transnum.bash[1P./transnum.bashvi transnum.bash[1P./transnum.bashvi transnum.bash[1P./transnum.bashvi transnum.bash[1P./transnum.bashvi transnum.bash[1P./transnum.bashvi transnum.bash[1P./transnum.bashloop_d_loop.bash[1Pkshls[K./loop_d_loop.bash cp loop_d_loop.bash loop_d_loop.kshh[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16P./loop_d_loop.ksh 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K./ thefinaldadaduun.bash 
+bash: ./: Is a directory
+]0;gassiscardoso@studentcomputing:~/20170508/test3_task3[gassiscardoso@studentcomputing test3_task3]$ ./ thefinaldadaduun.bash [1P
+[3;J[H[2JStarting your comp145 final
+
+
+You ran this before; continuing.
+
+
+
+[3;J[H[2J
+I bet you never thought you would have a game on your final!!!
+
+
+You will be required to guess a number between 1 & 6 to move forward.
+
+You will get 3 chances to pick the number otherwise you will be
+automatically exitted from the and will have to start over
+
+ARE YOU READY TO RUMBLE!!!
+Please select Yes or No: Yes
+
+I could tell by the way you touch the keys
+on the keyboard you were ready for some action
+
+Moving on
+
+[3;J[H[2JContinue to your choice
+
+You are executing the script for the 1st time
+
+
+Please enter a number between 1 and 6: 3
+
+You selected a number that was in the 1 - 6 range
+You selected 3
+You guessed 3 which is lower than the random number
+I suggest you ...
+Try again
+
+Continue to your choice
+
+You are executing the script for the 2nd time
+You will have one more chance after this.
+
+
+Please enter a number between 1 and 6: 5
+
+You selected a number that was in the 1 - 6 range
+You selected 5
+You guessed 5 which is higher than the random number
+I suggest you ...
+Try again
+
+Continue to your choice
+
+You are executing the script for the 3rd time
+This is you rlast chance before being kicked out
+
+
+Please enter a number between 1 and 6: 4
+
+You selected a number that was in the 1 - 6 range
+You have selected 4 and the RANDOM number is ==> 4
+You get to move on
+Congratulations!!  you won the right to continue
+
+It's time for you to do some magic
+
+You will have to now update the script with the task on the test sheet
+
+
+./thefinaldadaduun.bash: line 199: 6]: No such file or directory
+
+You will now execute a case statement and then re-create it as an IF-then statement within the code.
+
+
+This is a sample case statement, convert it to an if-then statement below
+
+Please enter in a letter between A and D: A
+You entered letter A, you gat a Gold Star
+
+
+You're turn!!!
+
+Executing your IF-Then statement below
+
+
+Whew, you comming down to the end
+As directed, please put the contents of HW#8 Below
+
+
+1. Display the time and date
+2. Display the contents of the user directory
+3. Display the processes that are running
+4. Display who is on the system
+5. Continue the program
+Please enter a number
+5
+
+If you like baseball, then you know we are sliding into home
+Wait
+
+One last fancy pants tasks
+SMILE
+Now I will execute a Java program for your enjoyment
+Watch and be amazed
+Where am I: /home/gassiscardoso
+
+messing around with java
+
+Java file name ==> goodbye.java
+Now will complie using the command ==> javac goodbye.java
+
+Now will execute the java script using the command ==> java goodbye
+Have a Great Summer
+The sript completed successfully
+
+
+You have completed the COMP 145 Final for Spring 2017
+
+You are done unless you want more torture!!
+
+For extra credit I can give you cammands and you can incorporate C++ for option #6 above
+
+Otherwise, Good Job
+
+
+Done
+]0;gassiscardoso@studentcomputing:~/20170508/test3_task3[gassiscardoso@studentcomputing test3_task3]$ exit
+
+Script done on Mon 08 May 2017 09:36:59 PM EDT
+Gustavo - Task #3

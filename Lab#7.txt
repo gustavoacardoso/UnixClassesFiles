@@ -1,0 +1,45 @@
+Script started, file is typescript
+[gassiscardoso@studentcomputing ~]$ grep -cw "George" /etc/passwd
+0
+[gassiscardoso@studentcomputing ~]$ who | sort
+gassiscardoso pts/0        2017-04-16 10:53 (172.16.208.157)
+gassiscardoso pts/3        2017-04-16 11:14
+pgeiselman pts/1        2017-04-06 11:43 (172.16.44.231)
+rnoel    pts/2        2017-04-16 10:59 (219.sub-70-208-73.myvzw.com)
+[gassiscardoso@studentcomputing ~]$ vi grade
+[gassiscardoso@studentcomputing ~]$ cat grade | sort -k2
+Zed     Arf     F
+Tod     Barr    C
+Mike    Grep    C
+Harry   Konik   B
+Beth    Mon     B
+Ann     Smith   A
+Sam     Smith   A
+[gassiscardoso@studentcomputing ~]$ cat grade | sort -k3
+Ann     Smith   A
+Sam     Smith   A
+Beth    Mon     B
+Harry   Konik   B
+Mike    Grep    C
+Tod     Barr    C
+Zed     Arf     F
+[gassiscardoso@studentcomputing ~]$ cat grade | grep -w "A"
+Sam     Smith   A
+Ann     Smith   A
+[gassiscardoso@studentcomputing ~]$ cat grade | wc -l
+7
+[gassiscardoso@studentcomputing ~]$ cat grade | head -3
+Sam     Smith   A
+Harry   Konik   B
+Mike    Grep    C
+[gassiscardoso@studentcomputing ~]$ cat grade | tail -2
+Beth    Mon     B
+Tod     Barr    C
+[gassiscardoso@studentcomputing ~]$ cat grade | awk '{ print $2 " " $1 " " $3}'
+Smith Sam A
+Konik Harry B
+Grep Mike C
+Smith Ann A
+Arf Zed F
+Mon Beth B
+Barr Tod C

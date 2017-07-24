@@ -1,0 +1,23 @@
+****** Lab#4 Part1 ******
+cd /usr/bin
+ls -l *a
+ls -l *e
+ls -l *i
+ls -l *o
+ls -l *u
+ls -l *m
+ls -l *n
+ls -l *o
+ls -l *p
+ls -l *ac
+ls -l *5
+ls -l ??e
+pr -h "Gustavo Cardoso - Lab#4 Part1" typescript | lpr -P lah110
+
+***** Lab#4 Part 2 ******
+cd $HOME/comp145
+echo 'Gustavo Lab#4
+3/5/2017
+who
+la' > HW4.txt
+pr - Gustavo Cardoso - Lab#4 Part2" typescript | lpr -P lah110

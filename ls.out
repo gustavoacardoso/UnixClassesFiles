@@ -1,0 +1,24 @@
+total 196
+drwxr-xr-x.  3 gassiscardoso sp17-comp140     22 Feb 27 19:33 20170227
+-rw-r--r--.  1 gassiscardoso sp17-comp140  12882 Mar 20 12:35 aux
+-rw-r--r--.  1 gassiscardoso sp17-comp140     18 Mar 20 19:56 bash_profile
+-rwxr-xr-x.  1 gassiscardoso sp17-comp140    735 Feb 27 19:32 classprep_20170217.sh
+drwx--x--x.  5 gassiscardoso sp17-comp140   4096 Mar 27 18:11 comp145
+drwx--x--x.  2 gassiscardoso sp17-comp140      6 Jan 23 20:17 filestone
+-rw-r--r--.  1 gassiscardoso sp17-comp140 103649 Mar  6 18:36 findoutput
+-rwx--x--x.  1 gassiscardoso sp17-comp140      5 Jan 23 20:12 foo
+-rwx--x--x.  1 gassiscardoso sp17-comp140      5 Jan 23 20:13 foo.shell
+-rw-r--r--.  1 gassiscardoso sp17-comp140     78 Mar  6 18:28 gassis
+-rw-r--r--.  1 gassiscardoso sp17-comp140     78 Mar  6 18:27 gassiscardoso
+-rw-r--r--.  1 gassiscardoso sp17-comp140     26 Mar 20 19:02 hellowworld.txt
+-rw-r--r--.  1 gassiscardoso sp17-comp140    318 Feb 13 18:32 home_update.bash
+-rw-r--r--.  1 gassiscardoso sp17-comp140   2083 Mar 27 18:23 Lab#6
+-rw-r--r--.  1 gassiscardoso sp17-comp140     78 Mar 27 18:25 Lab#6_2
+-rw-r--r--.  1 gassiscardoso sp17-comp140     78 Mar 27 18:26 Lab#6_3
+-rw-r--r--.  1 gassiscardoso sp17-comp140      0 Mar 27 18:59 ls.out
+-rw-r--r--.  1 gassiscardoso sp17-comp140     78 Mar  6 18:27 name
+-rw-------.  1 gassiscardoso sp17-comp140      0 Mar 20 19:24 nohup.out
+drwxr-xr-x. 12 gassiscardoso sp17-comp140   4096 Mar  8 16:26 public_html
+drwxr-xr-x.  3 gassiscardoso sp17-comp140     21 Feb 27 19:01 tmp
+-rwx--x--x.  1 gassiscardoso sp17-comp140  13209 Mar 27 18:21 typescript
+-rwxr-xr-x.  1 gassiscardoso sp17-comp140   1124 Feb 27 19:01 vi_test_file

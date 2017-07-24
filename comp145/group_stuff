@@ -1,0 +1,15 @@
+Try the following and let me know of you success
+
+1) cd $HOME
+2) Type the ==> id <== command and press enter
+3) The output should show you which primary group and secondary groups you have been granted
+4) Use the touch command to create a file called groupmagic
+5) Type the following command to see the permissions of the file ==> ls -l groupmagic
+6) Your userid should be assigned to more the one group.  Type the command id and press enter
+   i.e. Your "groups" may look like this when "students" is the primary group
+        gid=1002(students) groups=1002(students),1006(sp17-comp145)
+7) As you can see in the exmaple above you have a secondary group sp17-comp145
+   Please use the chgrp command to change the group ownership of the groupmagic file from your primary group to a secondary group ownership
+   i.e. chgrp groupmagic [new secondary group]
+8) Type ==> ls -l 
+9) Did it work

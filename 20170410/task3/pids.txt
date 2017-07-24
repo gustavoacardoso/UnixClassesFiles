@@ -1,0 +1,236 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1 193632  4060 ?        Ss   Apr03   1:07 /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+root         2  0.0  0.0      0     0 ?        S    Apr03   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Apr03   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Apr03   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    Apr03   0:02 [migration/0]
+root         8  0.0  0.0      0     0 ?        S    Apr03   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    Apr03   1:30 [rcu_sched]
+root        10  0.0  0.0      0     0 ?        S    Apr03   0:02 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    Apr03   0:01 [watchdog/1]
+root        12  0.0  0.0      0     0 ?        S    Apr03   0:03 [migration/1]
+root        13  0.0  0.0      0     0 ?        S    Apr03   0:00 [ksoftirqd/1]
+root        15  0.0  0.0      0     0 ?        S<   Apr03   0:00 [kworker/1:0H]
+root        16  0.0  0.0      0     0 ?        S    Apr03   0:01 [watchdog/2]
+root        17  0.0  0.0      0     0 ?        S    Apr03   0:00 [migration/2]
+root        18  0.0  0.0      0     0 ?        S    Apr03   0:00 [ksoftirqd/2]
+root        21  0.0  0.0      0     0 ?        S    Apr03   0:01 [watchdog/3]
+root        22  0.0  0.0      0     0 ?        S    Apr03   0:00 [migration/3]
+root        23  0.0  0.0      0     0 ?        S    Apr03   0:00 [ksoftirqd/3]
+root        27  0.0  0.0      0     0 ?        S<   Apr03   0:00 [khelper]
+root        28  0.0  0.0      0     0 ?        S    Apr03   0:00 [kdevtmpfs]
+root        29  0.0  0.0      0     0 ?        S<   Apr03   0:00 [netns]
+root        30  0.0  0.0      0     0 ?        S    Apr03   0:00 [khungtaskd]
+root        31  0.0  0.0      0     0 ?        S<   Apr03   0:00 [writeback]
+root        32  0.0  0.0      0     0 ?        S<   Apr03   0:00 [kintegrityd]
+root        33  0.0  0.0      0     0 ?        S<   Apr03   0:00 [bioset]
+root        34  0.0  0.0      0     0 ?        S<   Apr03   0:00 [kblockd]
+root        35  0.0  0.0      0     0 ?        S<   Apr03   0:00 [md]
+root        41  0.0  0.0      0     0 ?        S    Apr03   0:15 [kswapd0]
+root        42  0.0  0.0      0     0 ?        SN   Apr03   0:00 [ksmd]
+root        43  0.0  0.0      0     0 ?        SN   Apr03   0:01 [khugepaged]
+root        44  0.0  0.0      0     0 ?        S    Apr03   0:00 [fsnotify_mark]
+root        45  0.0  0.0      0     0 ?        S<   Apr03   0:00 [crypto]
+root        53  0.0  0.0      0     0 ?        S<   Apr03   0:00 [kthrotld]
+root        55  0.0  0.0      0     0 ?        S<   Apr03   0:00 [kmpath_rdacd]
+root        57  0.0  0.0      0     0 ?        S<   Apr03   0:00 [kpsmoused]
+root        59  0.0  0.0      0     0 ?        S<   Apr03   0:00 [ipv6_addrconf]
+root        78  0.0  0.0      0     0 ?        S<   Apr03   0:00 [deferwq]
+root       112  0.0  0.0      0     0 ?        S    Apr03   0:52 [kauditd]
+root       299  0.0  0.0      0     0 ?        S<   Apr03   0:00 [ata_sff]
+root       300  0.0  0.0      0     0 ?        S<   Apr03   0:00 [mpt_poll_0]
+root       301  0.0  0.0      0     0 ?        S<   Apr03   0:00 [mpt/0]
+root       310  0.0  0.0      0     0 ?        S    Apr03   0:00 [scsi_eh_0]
+root       311  0.0  0.0      0     0 ?        S<   Apr03   0:00 [scsi_tmf_0]
+root       313  0.0  0.0      0     0 ?        S    Apr03   0:00 [scsi_eh_1]
+root       314  0.0  0.0      0     0 ?        S<   Apr03   0:00 [scsi_tmf_1]
+root       315  0.0  0.0      0     0 ?        S    Apr03   0:00 [scsi_eh_2]
+root       316  0.0  0.0      0     0 ?        S<   Apr03   0:00 [scsi_tmf_2]
+root       319  0.0  0.0      0     0 ?        S<   Apr03   0:00 [ttm_swap]
+root       393  0.0  0.0      0     0 ?        S<   Apr03   0:00 [kdmflush]
+root       394  0.0  0.0      0     0 ?        S<   Apr03   0:00 [bioset]
+root       404  0.0  0.0      0     0 ?        S<   Apr03   0:00 [kdmflush]
+root       405  0.0  0.0      0     0 ?        S<   Apr03   0:00 [bioset]
+root       420  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfsalloc]
+root       421  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs_mru_cache]
+root       422  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-buf/dm-0]
+root       423  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-data/dm-0]
+root       424  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-conv/dm-0]
+root       425  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-cil/dm-0]
+root       426  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-reclaim/dm-]
+root       427  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-log/dm-0]
+root       428  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-eofblocks/d]
+root       429  0.0  0.0      0     0 ?        S    Apr03   2:32 [xfsaild/dm-0]
+root       498  0.0  0.0      0     0 ?        S<   Apr03   0:00 [kworker/1:1H]
+root       505  0.0  0.4  53180 17276 ?        Ss   Apr03   6:23 /usr/lib/systemd/systemd-journald
+root       523  0.0  0.0 195124   324 ?        Ss   Apr03   0:00 /usr/sbin/lvmetad -f
+root       535  0.0  0.0  48308   520 ?        Ss   Apr03   0:00 /usr/lib/systemd/systemd-udevd
+root       580  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-buf/sda1]
+root       581  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-data/sda1]
+root       582  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-conv/sda1]
+root       583  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-cil/sda1]
+root       584  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-reclaim/sda]
+root       585  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-log/sda1]
+root       586  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-eofblocks/s]
+root       587  0.0  0.0      0     0 ?        S    Apr03   0:00 [xfsaild/sda1]
+root       628  0.0  0.0      0     0 ?        S<   Apr03   0:00 [kdmflush]
+root       629  0.0  0.0      0     0 ?        S<   Apr03   0:00 [bioset]
+root       636  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-buf/dm-2]
+root       637  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-data/dm-2]
+root       638  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-conv/dm-2]
+root       639  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-cil/dm-2]
+root       640  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-reclaim/dm-]
+root       641  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-log/dm-2]
+root       642  0.0  0.0      0     0 ?        S<   Apr03   0:00 [xfs-eofblocks/d]
+root       643  0.0  0.0      0     0 ?        S    Apr03   0:06 [xfsaild/dm-2]
+root       659  0.0  0.0  55416   708 ?        S<sl Apr03   1:17 /sbin/auditd -n
+root       681  0.0  0.0  19312   624 ?        Ss   Apr03   0:27 /usr/sbin/irqbalance --foreground
+libstor+   682  0.0  0.0   8524   356 ?        Ss   Apr03   0:01 /usr/bin/lsmd -d
+root       683  0.0  0.0  24292  1168 ?        Ss   Apr03   0:16 /usr/lib/systemd/systemd-logind
+dbus       686  0.0  0.0  34848  1272 ?        Ssl  Apr03   0:36 /bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+chrony     688  0.0  0.0 115848   720 ?        S    Apr03   0:03 /usr/sbin/chronyd
+root       695  0.0  0.0 435400  2224 ?        Ssl  Apr03   0:07 /usr/sbin/NetworkManager --no-daemon
+root       698  0.0  0.0 127872   520 ?        Ss   Apr03   0:00 /usr/sbin/smartd -n -q never
+polkitd    699  0.0  0.0 529600  1272 ?        Ssl  Apr03   0:05 /usr/lib/polkit-1/polkitd --no-debug
+root       703  0.0  0.0 212488   420 ?        Ss   Apr03   0:00 /usr/sbin/abrtd -d -s
+root       704  0.0  0.0 210264   488 ?        Ss   Apr03   0:00 /usr/bin/abrt-watch-log -F BUG: WARNING: at WARNING: CPU: INFO: possible recursive locking detected ernel BUG at list_del corruption list_add corruption do_IRQ: stack overflow: ear stack overflow (cur: eneral protection fault nable to handle kernel ouble fault: RTNL: assertion failed eek! page_mapcount(page) went negative! adness at NETDEV WATCHDOG ysctl table check failed : nobody cared IRQ handler type mismatch Machine Check Exception: Machine check events logged divide error: bounds: coprocessor segment overrun: invalid TSS: segment not present: invalid opcode: alignment check: stack segment: fpu exception: simd exception: iret exception: /var/log/messages -- /usr/bin/abrt-dump-oops -xtD
+root       713  0.0  0.0  25844   308 ?        Ss   Apr03   0:00 /usr/sbin/atd -f
+root       716  0.0  0.0 126252  1132 ?        Ss   Apr03   0:17 /usr/sbin/crond -n
+root       722  0.0  0.0 110036   392 tty1     Ss+  Apr03   0:00 /sbin/agetty --noclear tty1 linux
+root       957  0.0  0.0 553164  1120 ?        Ssl  Apr03   1:05 /usr/bin/python -Es /usr/sbin/tuned -l -P
+root       960  0.0  0.0 202252   620 ?        Ss   Apr03   0:00 /usr/sbin/cupsd -f
+root       965  0.0  0.2 372164 10620 ?        Ssl  Apr03   3:20 /usr/sbin/rsyslogd -n
+apache    1119  0.0  0.0 415964   576 ?        S    16:00   0:00 /usr/sbin/httpd -DFOREGROUND
+root      1323  0.0  0.0 413744  2012 ?        Ss   Apr04   0:31 /usr/sbin/httpd -DFOREGROUND
+root      1368  0.0  0.0  82468   544 ?        Ss   Apr03   0:40 /usr/sbin/sshd
+mysql     1409  0.0  0.0 113256   768 ?        Ss   Apr03   0:00 /bin/sh /usr/bin/mysqld_safe --basedir=/usr
+mysql     1799  0.0  0.3 839268 11952 ?        Sl   Apr03   5:53 /usr/libexec/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --log-error=/var/log/mariadb/mariadb.log --pid-file=/var/run/mariadb/mariadb.pid --socket=/var/lib/mysql/mysql.sock
+root      2289  0.0  0.0  91064   500 ?        Ss   Apr03   0:04 /usr/libexec/postfix/master -w
+postfix   2291  0.0  0.0  91348   528 ?        S    Apr03   0:00 qmgr -l -t unix -u
+root      2374  0.0  0.0      0     0 ?        S<   Apr03   0:00 [kworker/2:1H]
+apache    4478  0.0  0.0 348176   300 ?        S    Apr09   0:01 /usr/sbin/httpd -DFOREGROUND
+apache    4484  0.0  0.0 415964   572 ?        S    Apr09   0:00 /usr/sbin/httpd -DFOREGROUND
+apache    4485  0.0  0.0 415964   572 ?        S    Apr09   0:00 /usr/sbin/httpd -DFOREGROUND
+apache    4486  0.0  0.0 415828   340 ?        S    Apr09   0:00 /usr/sbin/httpd -DFOREGROUND
+apache    4487  0.0  0.0 415964   560 ?        S    Apr09   0:00 /usr/sbin/httpd -DFOREGROUND
+apache    4488  0.0  0.0 415964   584 ?        S    Apr09   0:00 /usr/sbin/httpd -DFOREGROUND
+apache    5572  0.0  0.0 415964   572 ?        S    17:15   0:00 /usr/sbin/httpd -DFOREGROUND
+apache    5575  0.0  0.0 415964   572 ?        S    17:15   0:00 /usr/sbin/httpd -DFOREGROUND
+root      6535  0.0  0.0 145024   752 ?        Ss   17:29   0:00 sshd: sshah9 [priv]
+sshah9    6623  0.0  0.0 145180   548 ?        S    17:30   0:00 sshd: sshah9@pts/7
+sshah9    6624  0.0  0.0 116048   920 pts/7    Ss   17:30   0:00 -bash
+root      7487  0.0  0.0 145024  1240 ?        Ss   17:45   0:00 sshd: flongo2 [priv]
+flongo2   7501  0.0  0.0 145180   900 ?        S    17:45   0:01 sshd: flongo2@pts/2
+flongo2   7502  0.0  0.0 116048  1584 pts/2    Ss+  17:45   0:00 -bash
+root      7548  0.0  0.0 145024  1244 ?        Ss   17:45   0:00 sshd: tbalbosa1 [priv]
+tbalbos+  7564  0.0  0.0 145180   904 ?        S    17:45   0:00 sshd: tbalbosa1@pts/9
+tbalbos+  7565  0.0  0.0 116048  1556 pts/9    Ss   17:45   0:00 -bash
+sshah9    7710  0.0  0.0 107900   272 pts/7    T    17:47   0:00 yes
+root      7722  0.0  0.0 145024  1236 ?        Ss   17:47   0:00 sshd: jdowney4 [priv]
+jdowney4  7729  0.0  0.0 145116  1064 ?        S    17:47   0:00 sshd: jdowney4@pts/10
+jdowney4  7730  0.0  0.0 116044  1520 pts/10   Ss+  17:47   0:00 -bash
+jtierne+  7783  0.0  0.0 107896   256 ?        S    17:47   0:00 sleep 10000
+flongo2   7865  0.0  0.0 107896   256 pts/2    T    17:48   0:00 sleep 6000
+root      7953  0.0  0.0 145024  1248 ?        Ss   17:49   0:00 sshd: sturczyn1 [priv]
+sturczy+  7981  0.0  0.0 145180   884 ?        S    17:50   0:00 sshd: sturczyn1@pts/3
+sturczy+  7982  0.0  0.0 116040  1656 pts/3    Ss   17:50   0:00 -bash
+sshah9    8219  0.0  0.0 107916   252 pts/7    T    17:53   0:00 /usr/bin/ed --restricted
+root      8234  0.0  0.0 145024  1236 ?        Ss   17:53   0:00 sshd: sshah9 [priv]
+sshah9    8244  0.0  0.0 145180   916 ?        S    17:53   0:01 sshd: sshah9@pts/13
+sshah9    8245  0.0  0.0 116048   920 pts/13   Ss   17:53   0:00 -bash
+sshah9    8298  0.0  0.0 107916   252 pts/13   T    17:53   0:00 /usr/bin/ed --restricted
+jdowney4  8331  0.0  0.0 157708   524 pts/10   T    17:53   0:00 top
+apache    9002  0.0  0.0 415828   372 ?        S    18:00   0:00 /usr/sbin/httpd -DFOREGROUND
+sshah9    9005  0.0  0.0 107916   252 pts/13   T    18:00   0:00 /usr/bin/ed --restricted
+sshah9    9031  0.0  0.0 107916   252 pts/13   T    18:00   0:00 /usr/bin/ed --restricted
+sshah9    9153  0.0  0.0 116032   832 pts/13   S    18:01   0:00 bash
+sshah9    9215  0.0  0.0 116032   920 pts/13   S    18:02   0:00 bash
+sshah9    9424  0.0  0.0 116032  1852 pts/13   S+   18:05   0:00 bash
+root      9977  0.0  0.0 145024  1040 ?        Ss   18:13   0:00 sshd: gassiscardoso [priv]
+gassisc+  9984  0.0  0.0 145116  1072 ?        S    18:13   0:00 sshd: gassiscardoso@pts/0
+gassisc+  9985  0.0  0.0 116048  1756 pts/0    Ss+  18:13   0:00 -bash
+sshah9   10077  0.0  0.0 115572   368 pts/7    S+   18:14   0:00 nano ec.txt
+root     10340  0.0  0.0      0     0 ?        S<   18:19   0:00 [kworker/3:2H]
+tbalbos+ 10420  0.0  0.0 107896   252 pts/9    S    18:20   0:00 sleep 7000
+root     10981  0.0  0.0 177716   512 pts/10   T    18:27   0:00 crontab
+jdowney4 11045  0.0  0.0 125264   324 pts/10   T    18:28   0:00 as
+root     11232  0.0  0.0 177720   512 pts/3    T    18:29   0:00 crontab
+root     11246  0.0  0.0      0     0 ?        S    18:29   0:00 [kworker/u64:0]
+root     12043  0.0  0.0      0     0 ?        S    18:30   0:02 [kworker/2:2]
+root     14718  0.0  0.0      0     0 ?        S<   Apr07   0:00 [kworker/2:2H]
+root     17424  0.0  0.0      0     0 ?        S    18:38   0:01 [kworker/0:0]
+root     17789  0.0  0.1 145024  5484 ?        Ss   18:41   0:00 sshd: gassiscardoso [priv]
+gassisc+ 17799  0.0  0.0 145180  2396 ?        S    18:41   0:00 sshd: gassiscardoso@pts/33
+gassisc+ 17800  0.0  0.0 116048  2736 pts/33   Ss   18:41   0:00 -bash
+tbalbos+ 18101  0.0  0.0 114136   812 pts/9    S+   18:43   0:00 script test2_task2.txt
+tbalbos+ 18103  0.0  0.0 114140   376 pts/9    S+   18:43   0:00 script test2_task2.txt
+tbalbos+ 18104  0.0  0.0 116032  2792 pts/35   Ss+  18:43   0:00 bash -i
+root     18213  0.0  0.1 145024  5484 ?        Ss   18:44   0:00 sshd: vnikolaienko1 [priv]
+vnikola+ 18250  0.0  0.0 145180  2404 ?        S    18:44   0:00 sshd: vnikolaienko1@pts/19
+vnikola+ 18251  0.0  0.0 116048  2720 pts/19   Ss   18:44   0:00 -bash
+root     18567  0.0  0.1 145024  5480 ?        Ss   18:46   0:00 sshd: rnoel [priv]
+rnoel    18578  0.0  0.0 145120  2464 ?        S    18:46   0:00 sshd: rnoel@pts/40
+rnoel    18579  0.0  0.0 116048  2736 pts/40   Ss+  18:46   0:00 -bash
+root     19136  0.0  0.0 145024  1216 ?        Ss   Apr06   0:01 sshd: pgeiselman [priv]
+pgeisel+ 19153  0.0  0.0 145120   940 ?        S    Apr06   0:03 sshd: pgeiselman@pts/1
+pgeisel+ 19154  0.0  0.0 115916   920 pts/1    Ss   Apr06   0:00 -bash
+pgeisel+ 19588  0.0  0.0 114912   460 pts/1    S+   Apr06   0:00 nano read_it.py
+root     21525  0.0  0.1 145056  5152 ?        Ss   19:08   0:00 sshd: rnoel [priv]
+rnoel    21546  0.0  0.0 145056  2268 ?        S    19:08   0:00 sshd: rnoel@pts/42
+rnoel    21547  0.0  0.0 120404  3056 pts/42   Ss+  19:08   0:00 -bash
+sturczy+ 21806  0.0  0.0 114136   816 pts/3    S+   19:11   0:00 script test2_task3.txt
+sturczy+ 21808  0.0  0.0 114140   380 pts/3    S+   19:11   0:00 script test2_task3.txt
+sturczy+ 21809  0.0  0.0 116028  2712 pts/34   Ss+  19:11   0:00 bash -i
+vkommer1 22107  0.0  0.0 107896   608 ?        S    19:12   0:00 sleep 6000
+vkommer1 22157  0.0  0.0 107896   608 ?        S    19:12   0:00 sleep 8000
+postfix  22392  0.0  0.1  91168  3976 ?        S    19:14   0:00 pickup -l -t unix -u
+root     22857  0.0  0.0      0     0 ?        S    19:17   0:00 [kworker/u64:2]
+dbattis+ 23663  0.0  0.0 107896   604 ?        S    19:21   0:00 sleep 6000
+dbattis+ 23681  0.0  0.0 107896   604 ?        S    19:21   0:00 sleep 8000
+root     24120  0.0  0.1 145024  5476 ?        Ss   19:25   0:00 sshd: tbalbosa1 [priv]
+tbalbos+ 24143  0.0  0.0 145180  2276 ?        S    19:25   0:00 sshd: tbalbosa1@pts/45
+tbalbos+ 24144  0.0  0.0 116048  2740 pts/45   Ss+  19:25   0:00 -bash
+jfranzr+ 24444  0.0  0.0 107896   608 ?        S    19:27   0:00 sleep 6000
+jfranzr+ 24455  0.0  0.0 107896   608 ?        S    19:27   0:00 sleep 8000
+gassisc+ 24573  0.0  0.0 114136   816 pts/33   S+   19:28   0:00 script test2_task3.txt
+gassisc+ 24575  0.0  0.0 114140   380 pts/33   S+   19:28   0:00 script test2_task3.txt
+gassisc+ 24576  0.0  0.0 116152  2928 pts/6    Ss   19:28   0:00 bash -i
+root     25895  0.0  0.0      0     0 ?        S    19:39   0:00 [kworker/0:1]
+root     25907  0.0  0.0      0     0 ?        S<   19:39   0:00 [kworker/3:0H]
+jbonven+ 26126  0.0  0.0 107896   604 ?        S    19:41   0:00 sleep 6000
+jbonven+ 26129  0.0  0.0 107896   608 ?        S    19:41   0:00 sleep 8000
+root     26757  0.0  0.0      0     0 ?        S    19:46   0:00 [kworker/1:0]
+root     26864  0.0  0.1 145024  5480 ?        Ss   19:47   0:00 sshd: jbonvenca2 [priv]
+jbonven+ 26902  0.0  0.0 145180  2280 ?        S    19:47   0:00 sshd: jbonvenca2@pts/4
+jbonven+ 26903  0.0  0.0 116048  2712 pts/4    Ss   19:47   0:00 -bash
+root     26958  0.0  0.1 145024  5480 ?        Ss   19:47   0:00 sshd: dzhang2 [priv]
+dzhang2  26972  0.0  0.0 145024  2280 ?        S    19:47   0:00 sshd: dzhang2@pts/15
+dzhang2  26973  0.0  0.0 116048  2720 pts/15   Ss+  19:47   0:00 -bash
+root     27659  0.0  0.0      0     0 ?        S<   Apr09   0:00 [kworker/0:2H]
+gassisc+ 27957  0.0  0.0 116032  2612 pts/6    S    19:57   0:00 bash
+gassisc+ 27996  0.0  0.0 116032  2600 pts/6    S    19:57   0:00 bash
+gassisc+ 28027  0.0  0.0 116032  2736 pts/6    S    19:57   0:00 bash
+gassisc+ 28063  0.0  0.1 148800  4508 pts/6    T    19:57   0:00 vim
+gassisc+ 28074  0.0  0.0 107896   608 pts/6    S    19:57   0:00 sleep 6000
+gassisc+ 28121  0.0  0.0 107896   604 pts/6    S    19:57   0:00 sleep 8000
+vnikola+ 28159  0.0  0.0 114136   816 pts/19   S+   19:58   0:00 script test2_task3.txt
+vnikola+ 28161  0.0  0.0 114140   380 pts/19   S+   19:58   0:00 script test2_task3.txt
+vnikola+ 28162  0.0  0.0 115504  2016 pts/11   Ss+  19:58   0:00 bash -i
+root     28279  0.0  0.0      0     0 ?        S    20:00   0:00 [kworker/2:1]
+root     28465  0.1  0.1 145024  5484 ?        Ss   20:01   0:00 sshd: gbadaracco1 [priv]
+gbadara+ 28475  0.0  0.0 145180  2284 ?        S    20:01   0:00 sshd: gbadaracco1@pts/5
+gbadara+ 28476  0.0  0.0 116048  2728 pts/5    Ss   20:01   0:00 -bash
+root     28578  0.0  0.0      0     0 ?        S    20:02   0:00 [kworker/3:2]
+gbadara+ 28805  0.0  0.0 116032  2728 pts/5    S+   20:05   0:00 bash
+root     28894  0.0  0.0      0     0 ?        S    20:06   0:00 [kworker/1:2]
+root     28913  0.0  0.0 177712  1924 pts/4    S+   20:06   0:00 crontab -e
+jbonven+ 28915  0.0  0.0 126292  1684 pts/4    S+   20:06   0:00 /usr/bin/vi /tmp/crontab.IKT8hP
+root     28958  0.0  0.0      0     0 ?        S    20:07   0:00 [kworker/2:0]
+root     28968  0.0  0.0      0     0 ?        S    20:07   0:00 [kworker/3:0]
+root     29007  0.1  0.1 141724  4748 ?        Ss   20:08   0:00 sshd: root [priv]
+sshd     29008  0.0  0.0  83892  2256 ?        S    20:08   0:00 sshd: root [net]
+root     29009  0.1  0.1 141748  4756 ?        Ss   20:08   0:00 sshd: root [priv]
+sshd     29010  0.0  0.0  83892  2256 ?        S    20:08   0:00 sshd: root [net]
+gassisc+ 29025  0.0  0.0 151056  1828 pts/6    R+   20:08   0:00 ps axu
+root     29222  0.0  0.0      0     0 ?        S    14:00   0:02 [kworker/1:1]
+root     29315  0.0  0.0      0     0 ?        S    Apr06   0:36 [kworker/3:1]

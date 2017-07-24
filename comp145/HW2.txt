@@ -1,0 +1,12 @@
+man cal
+man uname
+man who
+man w
+man whoami
+cal 3 1984
+cal 3 | lpr -P lah110
+uname -a
+who
+w
+whoami
+pr -h "Gustavo Cardoso - Lab#2" typescript | lpr -P lah110

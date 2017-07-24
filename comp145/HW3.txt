@@ -1,0 +1,49 @@
+Gustavo Cardoso - Lab#3
+
+#1
+cd /
+ls -F
+cd home/gassiscardoso
+ls -F
+cd comp145
+cd .. .. ..
+ls -F
+cd public_html/ch3pacific
+
+#2
+cd
+cd comp145
+mkdir proj1 proj2
+cd proj1
+mkdir memos reports
+cd ..
+cd proj2
+mkdir costs time 
+touch mess1
+cp mess1 $HOME/comp145/proj1
+cp mess1 $HOME/comp145/proj1/memos
+cp mess1 $HOME/comp145/proj1/reports
+cp mess1 $HOME/comp145/proj2/costs
+cp mess1 $HOME/comp145/proj2/time 
+cd .. comp145 
+ls -R 
+pr -h "Gustavo Cardoso - Lab #3 - Part1/3" typescript | lpr -P lah110
+cd proj2/costs
+rm mess1
+cd $HOME/comp145/proj1
+rm -rf reports
+cd memos
+mv mess1 mess2
+cd $HOME/comp145
+ls -R
+pr -h "Gustavo Cardoso - Lab#3 - Part2/3" typescript | lpr -P lah110
+
+#3
+pwd
+cd $HOME/comp145
+touch mess1 mess2
+chmod 666 mess1
+chmod 660 mess2
+chmod 777 proj1
+chmod 004 proj2
+ls -li

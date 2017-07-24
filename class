@@ -1,0 +1,5 @@
+VAR=3;;
+
+if (VAR>3)
+	echo "Great"
+

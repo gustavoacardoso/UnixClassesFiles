@@ -1,0 +1,149 @@
+  PID TTY          TIME CMD
+ 1214 pts/1    00:00:00 ps
+ 1215 pts/1    00:00:00 ps
+32035 pts/1    00:00:00 bash
+?        Ss   Jan19   8:24 /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+root         2  0.0  0.0      0     0 ?        S    Jan19   0:01 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Jan19   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Jan19   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    Jan19   0:14 [migration/0]
+root         8  0.0  0.0      0     0 ?        S    Jan19   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    Jan19  15:04 [rcu_sched]
+root        10  0.0  0.0      0     0 ?        S    Jan19   0:23 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    Jan19   0:19 [watchdog/1]
+root        12  0.0  0.0      0     0 ?        S    Jan19   0:14 [migration/1]
+root        13  0.0  0.0      0     0 ?        S    Jan19   0:07 [ksoftirqd/1]
+root        15  0.0  0.0      0     0 ?        S<   Jan19   0:00 [kworker/1:0H]
+root        16  0.0  0.0      0     0 ?        S    Jan19   0:18 [watchdog/2]
+root        17  0.0  0.0      0     0 ?        S    Jan19   0:09 [migration/2]
+root        18  0.0  0.0      0     0 ?        S    Jan19   0:03 [ksoftirqd/2]
+root        20  0.0  0.0      0     0 ?        S<   Jan19   0:00 [kworker/2:0H]
+root        21  0.0  0.0      0     0 ?        S    Jan19   0:18 [watchdog/3]
+root        22  0.0  0.0      0     0 ?        S    Jan19   0:09 [migration/3]
+root        23  0.0  0.0      0     0 ?        S    Jan19   0:05 [ksoftirqd/3]
+root        27  0.0  0.0      0     0 ?        S<   Jan19   0:00 [khelper]
+root        28  0.0  0.0      0     0 ?        S    Jan19   0:00 [kdevtmpfs]
+root        29  0.0  0.0      0     0 ?        S<   Jan19   0:00 [netns]
+root        30  0.0  0.0      0     0 ?        S    Jan19   0:01 [khungtaskd]
+root        31  0.0  0.0      0     0 ?        S<   Jan19   0:00 [writeback]
+root        32  0.0  0.0      0     0 ?        S<   Jan19   0:00 [kintegrityd]
+root        33  0.0  0.0      0     0 ?        S<   Jan19   0:00 [bioset]
+root        34  0.0  0.0      0     0 ?        S<   Jan19   0:00 [kblockd]
+root        35  0.0  0.0      0     0 ?        S<   Jan19   0:00 [md]
+root        41  0.0  0.0      0     0 ?        S    Jan19   0:08 [kswapd0]
+root        42  0.0  0.0      0     0 ?        SN   Jan19   0:00 [ksmd]
+root        43  0.0  0.0      0     0 ?        SN   Jan19   0:15 [khugepaged]
+root        44  0.0  0.0      0     0 ?        S    Jan19   0:00 [fsnotify_mark]
+root        45  0.0  0.0      0     0 ?        S<   Jan19   0:00 [crypto]
+root        53  0.0  0.0      0     0 ?        S<   Jan19   0:00 [kthrotld]
+root        55  0.0  0.0      0     0 ?        S<   Jan19   0:00 [kmpath_rdacd]
+root        57  0.0  0.0      0     0 ?        S<   Jan19   0:00 [kpsmoused]
+root        59  0.0  0.0      0     0 ?        S<   Jan19   0:00 [ipv6_addrconf]
+root        79  0.0  0.0      0     0 ?        S<   Jan19   0:00 [deferwq]
+root       114  0.0  0.0      0     0 ?        S    Jan19   6:00 [kauditd]
+root       300  0.0  0.0      0     0 ?        S<   Jan19   0:00 [ata_sff]
+root       301  0.0  0.0      0     0 ?        S    Jan19   0:00 [scsi_eh_0]
+root       302  0.0  0.0      0     0 ?        S<   Jan19   0:00 [scsi_tmf_0]
+root       303  0.0  0.0      0     0 ?        S    Jan19   0:00 [scsi_eh_1]
+root       304  0.0  0.0      0     0 ?        S<   Jan19   0:00 [scsi_tmf_1]
+root       306  0.0  0.0      0     0 ?        S<   Jan19   0:00 [mpt_poll_0]
+root       307  0.0  0.0      0     0 ?        S<   Jan19   0:00 [mpt/0]
+root       317  0.0  0.0      0     0 ?        S    Jan19   0:00 [scsi_eh_2]
+root       318  0.0  0.0      0     0 ?        S<   Jan19   0:00 [scsi_tmf_2]
+root       320  0.0  0.0      0     0 ?        S<   Jan19   0:00 [ttm_swap]
+root       395  0.0  0.0      0     0 ?        S<   Jan19   0:00 [kdmflush]
+root       396  0.0  0.0      0     0 ?        S<   Jan19   0:00 [bioset]
+root       407  0.0  0.0      0     0 ?        S<   Jan19   0:00 [kdmflush]
+root       408  0.0  0.0      0     0 ?        S<   Jan19   0:00 [bioset]
+root       421  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfsalloc]
+root       422  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs_mru_cache]
+root       423  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-buf/dm-0]
+root       424  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-data/dm-0]
+root       425  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-conv/dm-0]
+root       426  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-cil/dm-0]
+root       427  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-reclaim/dm-]
+root       428  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-log/dm-0]
+root       429  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-eofblocks/d]
+root       430  0.0  0.0      0     0 ?        S    Jan19  23:04 [xfsaild/dm-0]
+root       499  0.0  0.2  36820  8600 ?        Ss   Jan19  49:32 /usr/lib/systemd/systemd-journald
+root       521  0.0  0.0 203320  3232 ?        Ss   Jan19   0:00 /usr/sbin/lvmetad -f
+root       525  0.0  0.0      0     0 ?        S<   Jan19   0:10 [kworker/2:1H]
+root       532  0.0  0.0  47152  2800 ?        Ss   Jan19   0:00 /usr/lib/systemd/systemd-udevd
+root       577  0.0  0.0      0     0 ?        S<   Jan19   0:02 [kworker/1:1H]
+root       580  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-buf/sda1]
+root       581  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-data/sda1]
+root       582  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-conv/sda1]
+root       583  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-cil/sda1]
+root       584  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-reclaim/sda]
+root       585  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-log/sda1]
+root       586  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-eofblocks/s]
+root       587  0.0  0.0      0     0 ?        S    Jan19   0:00 [xfsaild/sda1]
+root       633  0.0  0.0      0     0 ?        S<   Jan19   0:00 [kdmflush]
+root       634  0.0  0.0      0     0 ?        S<   Jan19   0:00 [bioset]
+root       641  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-buf/dm-2]
+root       642  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-data/dm-2]
+root       643  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-conv/dm-2]
+root       644  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-cil/dm-2]
+root       645  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-reclaim/dm-]
+root       646  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-log/dm-2]
+root       647  0.0  0.0      0     0 ?        S<   Jan19   0:00 [xfs-eofblocks/d]
+root       648  0.0  0.0      0     0 ?        S    Jan19   0:40 [xfsaild/dm-2]
+root       668  0.0  0.0  55416  1632 ?        S<sl Jan19   9:27 /sbin/auditd -n
+dbus       693  0.0  0.0  34908  1900 ?        Ssl  Jan19   4:26 /bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+chrony     697  0.0  0.0 115848  1584 ?        S    Jan19   0:26 /usr/sbin/chronyd
+root       703  0.0  0.1 435404  6524 ?        Ssl  Jan19   0:49 /usr/sbin/NetworkManager --no-daemon
+root       704  0.0  0.0 212548  3008 ?        Ss   Jan19   0:00 /usr/sbin/abrtd -d -s
+root       707  0.0  0.0  19312  1112 ?        Ss   Jan19   4:51 /usr/sbin/irqbalance --foreground
+polkitd    708  0.0  0.1 529700  7156 ?        Ssl  Jan19   0:34 /usr/lib/polkit-1/polkitd --no-debug
+root       709  0.0  0.0 210264  2616 ?        Ss   Jan19   0:05 /usr/bin/abrt-watch-log -F BUG: WARNING: at WARNING: CPU: INFO: possible recursive locking detected ernel BUG at list_del corruption list_add corruption do_IRQ: stack overflow: ear stack overflow (cur: eneral protection fault nable to handle kernel ouble fault: RTNL: assertion failed eek! page_mapcount(page) went negative! adness at NETDEV WATCHDOG ysctl table check failed : nobody cared IRQ handler type mismatch Machine Check Exception: Machine check events logged divide error: bounds: coprocessor segment overrun: invalid TSS: segment not present: invalid opcode: alignment check: stack segment: fpu exception: simd exception: iret exception: /var/log/messages -- /usr/bin/abrt-dump-oops -xtD
+libstor+   710  0.0  0.0   8524   740 ?        Ss   Jan19   0:13 /usr/bin/lsmd -d
+root       713  0.0  0.0 127872  1444 ?        Ss   Jan19   0:00 /usr/sbin/smartd -n -q never
+root       714  0.0  0.0  24248  1676 ?        Ss   Jan19   2:00 /usr/lib/systemd/systemd-logind
+root       720  0.0  0.0 126256  1672 ?        Ss   Jan19   0:18 /usr/sbin/crond -n
+root       721  0.0  0.0  25844  1044 ?        Ss   Jan19   0:00 /usr/sbin/atd -f
+root       890  0.0  0.0      0     0 ?        S<   13:03   0:00 [kworker/3:1H]
+root       962  0.0  0.3 553164 12996 ?        Ssl  Jan19  10:34 /usr/bin/python -Es /usr/sbin/tuned -l -P
+root       964  0.0  0.2 202756  8732 ?        Ss   Jan19   0:05 /usr/sbin/cupsd -f
+root       967  0.0  0.2 366628  8988 ?        Ssl  Jan19  23:23 /usr/sbin/rsyslogd -n
+root      1036  0.0  0.0      0     0 ?        S    13:06   0:00 [kworker/2:1]
+root      1143  0.0  0.0  83812  3588 ?        Ss   13:08   0:00 sshd: [accepted]
+sshd      1144  0.0  0.0  83812  2032 ?        S    13:08   0:00 sshd: [net]
+root      1188  0.0  0.0      0     0 ?        S    Mar06   1:50 [kworker/2:0]
+root      1205  0.2  0.1 141756  4748 ?        Ss   13:09   0:00 sshd: root [priv]
+sshd      1206  0.0  0.0  83892  2248 ?        S    13:09   0:00 sshd: root [net]
+root      1212  0.5  0.0  83812  3760 ?        Ss   13:09   0:00 sshd: [accepted]
+sshd      1213  0.0  0.0  83812  2032 ?        S    13:09   0:00 sshd: [net]
+gassisc+  1215  0.0  0.0 151056  1816 pts/1    R+   13:09   0:00 ps aux
+mysql     1286  0.0  0.0 113256  1512 ?        Ss   Jan19   0:00 /bin/sh /usr/bin/mysqld_safe --basedir=/usr
+root      1289  0.0  0.0  82468  1396 ?        Ss   Jan19   5:11 /usr/sbin/sshd
+mysql     1625  0.0  2.0 839268 79684 ?        Sl   Jan19  71:22 /usr/libexec/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --log-error=/var/log/mariadb/mariadb.log --pid-file=/var/run/mariadb/mariadb.pid --socket=/var/lib/mysql/mysql.sock
+root      2210  0.0  0.0  91064  2088 ?        Ss   Jan19   0:38 /usr/libexec/postfix/master -w
+postfix   2251  0.0  0.0  91348  3248 ?        S    Jan19   0:06 qmgr -l -t unix -u
+root     11343  0.0  0.0      0     0 ?        S    Mar19   0:02 [kworker/3:2]
+root     12238  0.0  0.0      0     0 ?        S    00:55   0:00 [kworker/0:1]
+root     12465  0.0  0.0      0     0 ?        S    02:00   0:00 [kworker/1:0]
+apache   12961  0.0  0.1 349952  6852 ?        S    03:48   0:00 /usr/sbin/httpd -DFOREGROUND
+apache   12963  0.0  0.2 415960  8296 ?        S    03:48   0:00 /usr/sbin/httpd -DFOREGROUND
+apache   12964  0.0  0.2 415960  8296 ?        S    03:48   0:00 /usr/sbin/httpd -DFOREGROUND
+apache   12965  0.0  0.2 415960  8036 ?        S    03:48   0:00 /usr/sbin/httpd -DFOREGROUND
+apache   12966  0.0  0.2 415960  8036 ?        S    03:48   0:00 /usr/sbin/httpd -DFOREGROUND
+apache   12967  0.0  0.2 415960  8036 ?        S    03:48   0:00 /usr/sbin/httpd -DFOREGROUND
+root     13217  0.0  0.0      0     0 ?        S    03:56   0:00 [kworker/u64:2]
+root     15467  0.0  0.0      0     0 ?        S    05:20   0:00 [kworker/u64:1]
+root     21522  0.0  0.0      0     0 ?        S    Mar09   0:18 [kworker/0:0]
+root     24122  0.0  0.0 114488  2768 ?        Ss   Feb14   0:00 login -- root
+root     24132  0.0  0.0 116044  2560 tty1     Ss+  Feb14   0:00 -bash
+root     25130  0.0  0.0      0     0 ?        S    Mar16   3:03 [kworker/1:1]
+postfix  28489  0.0  0.1  91168  3972 ?        S    11:36   0:00 pickup -l -t unix -u
+root     29820  0.0  0.0      0     0 ?        S<   Mar17   0:00 [kworker/0:1H]
+root     30345  0.0  0.4 413876 15516 ?        Ss   Jan25   5:23 /usr/sbin/httpd -DFOREGROUND
+root     30994  0.0  0.1 145056  5488 ?        Ss   12:24   0:00 sshd: gassiscardoso [priv]
+gassisc+ 31002  0.0  0.0 145056  2280 ?        S    12:24   0:00 sshd: gassiscardoso@pts/0
+gassisc+ 31003  0.0  0.0 116156  2936 pts/0    Ss   12:24   0:00 -bash
+root     31078  0.0  0.0      0     0 ?        S    12:25   0:00 [kworker/3:1]
+gassisc+ 31833  0.0  0.0 114912  1460 pts/0    S+   12:38   0:00 nano HW5_2.txt
+root     32025  0.0  0.1 145056  5484 ?        Ss   12:41   0:00 sshd: gassiscardoso [priv]
+gassisc+ 32034  0.0  0.0 145056  2276 ?        S    12:41   0:00 sshd: gassiscardoso@pts/1
+gassisc+ 32035  0.0  0.0 116152  2944 pts/1    Ss   12:41   0:00 -bash
+root     32526  0.0  0.0      0     0 ?        S<   12:49   0:00 [kworker/3:0H]
+root     32600  0.0  0.0      0     0 ?        S    12:51   0:00 [kworker/2:2]

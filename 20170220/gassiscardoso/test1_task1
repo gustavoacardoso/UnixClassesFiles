@@ -1,0 +1,42 @@
+Script started on Mon 20 Feb 2017 07:06:38 PM EST
+]0;gassiscardoso@studentcomputing:~/comp145/test1[?1034h[gassiscardoso@studentcomputing test1]$ pwd
+/home/gassiscardoso/comp145/test1
+]0;gassiscardoso@studentcomputing:~/comp145/test1[gassiscardoso@studentcomputing test1]$ mkdir task1
+]0;gassiscardoso@studentcomputing:~/comp145/test1[gassiscardoso@studentcomputing test1]$ echo $PATH
+/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/gassiscardoso/.local/bin:/home/gassiscardoso/bin
+]0;gassiscardoso@studentcomputing:~/comp145/test1[gassiscardoso@studentcomputing test1]$ find / gassis[K[K[K[K[K[K[K[K[K[K[K[K[Kcat /etc/passwd | grep $USER
+[01;31m[Kgassiscardoso[m[K:x:1059:1005:Gustavo Assis Cardoso:/home/[01;31m[Kgassiscardoso[m[K:/bin/bash
+]0;gassiscardoso@studentcomputing:~/comp145/test1[gassiscardoso@studentcomputing test1]$ pwd
+/home/gassiscardoso/comp145/test1
+]0;gassiscardoso@studentcomputing:~/comp145/test1[gassiscardoso@studentcomputing test1]$ ls
+[0m[01;34mtask1[0m  test1_task1
+]0;gassiscardoso@studentcomputing:~/comp145/test1[gassiscardoso@studentcomputing test1]$ cd task1/
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task1[gassiscardoso@studentcomputing task1]$ which cal[K[K[K[K[K[K[K[K[Kwhich cal
+/usr/bin/cal
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task1[gassiscardoso@studentcomputing task1]$ ln -s mycal /usr/bin/cal
+ln: failed to create symbolic link ‘/usr/bin/cal’: File exists
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task1[gassiscardoso@studentcomputing task1]$ ln -s mycal /usr/bin/cal[1P[1P[1P[1P[1P /usr/bin/cal[1P/usr/bin/cal[C[C[C[C[C[C[C[C[C[C[C[C mycal
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task1[gassiscardoso@studentcomputing task1]$ ls
+[0m[01;36mmycal[0m
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task1[gassiscardoso@studentcomputing task1]$ ./mycal 2 2017
+    February 2017   
+Su Mo Tu We Th Fr Sa
+          1  2  3  4
+ 5  6  7  8  9 10 11
+12 13 14 15 16 17 18
+19 [7m20[27m 21 22 23 24 25
+26 27 28
+
+]0;gassiscardoso@studentcomputing:~/comp145/test1/task1[gassiscardoso@studentcomputing task1]$ cd ..
+]0;gassiscardoso@studentcomputing:~/comp145/test1[gassiscardoso@studentcomputing test1]$ pwd
+/home/gassiscardoso/comp145/test1
+]0;gassiscardoso@studentcomputing:~/comp145/test1[gassiscardoso@studentcomputing test1]$ ls -laRt task1
+task1:
+total 0
+drwxr-xr-x. 2 gassiscardoso sp17-comp140 18 Feb 20 19:22 [0m[01;34m.[0m
+lrwxrwxrwx. 1 gassiscardoso sp17-comp140 12 Feb 20 19:22 [01;36mmycal[0m -> [01;32m/usr/bin/cal[0m
+drwxr-xr-x. 3 gassiscardoso sp17-comp140 36 Feb 20 19:07 [01;34m..[0m
+]0;gassiscardoso@studentcomputing:~/comp145/test1[gassiscardoso@studentcomputing test1]$ exit
+
+Script done on Mon 20 Feb 2017 07:23:17 PM EST
+Gustavo Cardoso - Task#1

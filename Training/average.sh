@@ -1,13 +1,9 @@
 #!/bin/bash
 
+sum=0
 read n
-read a
-read b
-read c
-read d
+while read -r num || [[ -n "$num" ]]; do
+    sum=$(($sum + $num))
+done
 
-#printf "%.3f\n" $(echo ($a + $b + $c + $d)/n | bc -l)
-
-#arr=($(cat)) 
-#arr=${arr[*]}
-printf "%.3f\n" $(echo $(($a+b+c+d))/$n | bc -l)
+printf "%.3f\n" $(echo $sum/$n | bc -l)

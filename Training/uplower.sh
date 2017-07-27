@@ -1,7 +1,7 @@
 #!/bin/bash
-read -p yn 
+read yn 
 case $yn in
-	[Yy]* ) echo "YES";;
-	[Nn]* ) echo "NO";;
+	[Y]|[y]) echo "YES";;
+	[N]|[n]) echo "NO";;
 	* ) echo "Type yes or no.";;
 esac
